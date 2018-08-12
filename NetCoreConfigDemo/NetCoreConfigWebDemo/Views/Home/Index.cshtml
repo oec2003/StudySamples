@@ -1,0 +1,14 @@
+﻿@using Microsoft.Extensions.Options;
+@inject IOptionsSnapshot<NetCoreConfigWebDemo.UserInfo> userInfo; @{
+    ViewData["Title"] = "Home Page";
+ }  <h2>UserInfo</h2>
+<ul>     <li>UserName:@userInfo.Value.UserName</li>     <li>Age:@userInfo.Value.Age</li>     <li>Address:@userInfo.Value.Address</li> </ul>
+
+    @*<h2>UserInfo</h2>
+        <ul>
+
+            <li>UserName:@Model.UserName</li>
+            <li>Age:@Model.Age</li>
+            <li>Address:@Model.Address</li>
+        </ul>*@
+
