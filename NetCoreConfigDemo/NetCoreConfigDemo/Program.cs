@@ -15,6 +15,7 @@ namespace NetCoreConfigDemo
             
             var configration = builder.Build();
             Console.WriteLine($"name:{configration["name"]}");
+
             Console.ReadLine();
         }
     }

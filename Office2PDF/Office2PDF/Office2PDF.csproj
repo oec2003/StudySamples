@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <StartupObject>Office2PDF.Program</StartupObject>
+    <AssemblyName>Office2PDF</AssemblyName>
+    <RootNamespace>Office2PDF.Office2PDF</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MongoDB.Driver.GridFS" Version="2.7.2" />
+    <PackageReference Include="MySql.Data" Version="8.0.13" />
+    <PackageReference Include="RabbitMQ.Client" Version="5.1.0" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="4.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="System.Web">
+      <HintPath>System.Web</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

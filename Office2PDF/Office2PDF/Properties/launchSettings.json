@@ -1,0 +1,13 @@
+{
+    "profiles": {
+        "Office2PDF.Office2PDF": {
+            "commandName": "Project",
+            "environmentVariables": {
+                "mqport": "5673",
+                "mqhostname": "192.168.16.160",
+                "mqpassword": "000000",
+                "mqusername": "Ican"
+            }
+        }
+    }
+}
