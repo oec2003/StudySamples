@@ -12,7 +12,6 @@ namespace DotNetCoreApiSample.Controllers
         [HttpGet]
         public IActionResult GetUserCode()
         {
-            throw new Exception("this is a customer exception");
             return Ok("oec2003");
         }
     }
