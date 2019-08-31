@@ -58,5 +58,3 @@ yarn-error.log*
 *.njsproj
 *.sln
 *.sw?
-
-VueSample/hello-world
