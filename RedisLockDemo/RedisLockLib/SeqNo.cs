@@ -10,7 +10,7 @@ namespace RedisLockLib
 
         public static string GetSeqNoNoLock()
         {
-            string connectionStr = "server = localhost; user id = sqluser; password = Pass@word; database = seqno_test";
+            string connectionStr = "server = localhost; user id = oec2003; password = 123456; database = seqno_test";
             string getSeqNosql = "select num from seqno where code='order'";
             string updateSeqNoSql = "update seqno set num=num+1 where code='order'";
 
@@ -22,7 +22,7 @@ namespace RedisLockLib
 
         public static string GetSeqNoByLock()
         {
-            string connectionStr = "server = localhost; user id = sqluser; password = Pass@word; database = seqno_test";
+            string connectionStr = "server = localhost; user id = oec2003; password = 123456; database = seqno_test";
             string getSeqNosql = "select num from seqno where code='order'";
             string updateSeqNoSql = "update seqno set num=num+1 where code='order'";
             var seqNo = string.Empty;
@@ -45,7 +45,7 @@ namespace RedisLockLib
 
         public static string GetSeqNoByRedisLock()
         {
-            string connectionStr = "server = localhost; user id = sqluser; password = Pass@word; database = seqno_test";
+            string connectionStr = "server = localhost; user id = oec2003; password = 123456; database = seqno_test";
             string getSeqNosql = "select num from seqno where code='order'";
             string updateSeqNoSql = "update seqno set num=num+1 where code='order'";
 
