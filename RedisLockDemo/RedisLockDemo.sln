@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29123.88
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RedisLockLib", "RedisLockLib\RedisLockLib.csproj", "{281D0907-703C-4E26-9009-FD2A505AE7C5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RedisLockConsoleApp1", "RedisLockConsoleApp1\RedisLockConsoleApp1.csproj", "{B2B2446C-5E4A-4A34-809B-EF1B625D2D33}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RedisLockConsoleApp2", "RedisLockConsoleApp2\RedisLockConsoleApp2.csproj", "{730B7172-4D69-47E2-9F1E-E21875617CED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{281D0907-703C-4E26-9009-FD2A505AE7C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{281D0907-703C-4E26-9009-FD2A505AE7C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{281D0907-703C-4E26-9009-FD2A505AE7C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{281D0907-703C-4E26-9009-FD2A505AE7C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2B2446C-5E4A-4A34-809B-EF1B625D2D33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2B2446C-5E4A-4A34-809B-EF1B625D2D33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2B2446C-5E4A-4A34-809B-EF1B625D2D33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2B2446C-5E4A-4A34-809B-EF1B625D2D33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{730B7172-4D69-47E2-9F1E-E21875617CED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{730B7172-4D69-47E2-9F1E-E21875617CED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{730B7172-4D69-47E2-9F1E-E21875617CED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{730B7172-4D69-47E2-9F1E-E21875617CED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E3E37E9D-B0EB-4D5C-A6C6-DDCC0CC2AB31}
+	EndGlobalSection
+EndGlobal
